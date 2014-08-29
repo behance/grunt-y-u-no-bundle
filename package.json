@@ -1,0 +1,46 @@
+{
+  "name": "grunt-why-you-no-bundle",
+  "description": "Grunt task for asserting that all of your AMD driver scripts are being bundled by r.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mrjoelkemp/grunt-why-you-no-bundle",
+  "author": {
+    "name": "Joel Kemp",
+    "email": "joel@mrjoelkemp.com",
+    "url": "www.mrjoelkemp.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrjoelkemp/grunt-why-you-no-bundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrjoelkemp/grunt-why-you-no-bundle/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mrjoelkemp/grunt-why-you-no-bundle/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "exclusion-manager": "^1.0.1",
+    "why-you-no-bundle": "^1.0.1"
+  }
+}
