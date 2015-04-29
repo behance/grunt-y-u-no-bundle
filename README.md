@@ -1,4 +1,4 @@
-# grunt-why-you-no-bundle
+# grunt-y-u-no-bundle
 
 > Grunt task for asserting that all of your AMD driver scripts are being bundled by r.js
 
@@ -6,13 +6,13 @@
 This plugin requires Grunt `~0.4.5`
 
 ```shell
-npm install grunt-why-you-no-bundle --save-dev
+npm install grunt-y-u-no-bundle --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-why-you-no-bundle');
+grunt.loadNpmTasks('grunt-y-u-no-bundle');
 ```
 
 ### Overview
@@ -24,7 +24,7 @@ requirejs configuration.
 
 ```js
 grunt.initConfig({
-  why_you_no_bundle: {
+  y_u_no_bundle: {
     app: {
       root: 'path/to/my/js',
       config: 'path/to/my/config',
